@@ -10,4 +10,5 @@ def index(request):
     return render_to_response('login.html',locals())
 
 def register(request):
+
     return render_to_response('monitor_register.html',locals())
