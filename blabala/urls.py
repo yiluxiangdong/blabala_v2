@@ -19,4 +19,5 @@ from apps import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'login/', views.index),
+    url(r'register/', views.register),
 ]
